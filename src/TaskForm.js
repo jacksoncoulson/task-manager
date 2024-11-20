@@ -1,6 +1,7 @@
+// src/components/TaskForm.js
 import React, { useState } from 'react';
 
-function TaskManager({ addTask }) {
+function TaskForm({ addTask }) {
     const [task, setTask] = useState('');
 
     const handleSubmit = (e) => {
@@ -24,4 +25,4 @@ function TaskManager({ addTask }) {
     );
 }
 
-export default TaskManager;
+export default TaskForm;
